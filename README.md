@@ -5,7 +5,7 @@
 * **Install Laravel**
 
 ```bash
-composer create-project laravel/laravel vue3-laravel
+composer create-project laravel/laravel laravel-vue-bootstrap
 ```
 
 * **Install Vue3**
@@ -124,6 +124,21 @@ npm install vue-router
 <template>
   <div class="container mx-auto">
     <h1>Home Page</h1>
+  </div>
+
+</template>
+
+<script setup>
+</script>
+
+<style scoped>
+</style>
+```
+
+```vue
+<template>
+  <div class="container mx-auto">
+    <h1>About Page</h1>
   </div>
 
 </template>
