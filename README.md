@@ -26,17 +26,21 @@ composer require laravel/ui
 php artisan ui bootstrap
 ```
 
-* 
+* **Install node and run node server**
 
 ```bash
 npm install && npm run dev
 ```
 
-* 
+* **Instal vitejs/plugin-vue**
 
 ```bash
 npm i @vitejs/plugin-vue
 ```
+
+Instalará el paquete @vitejs/plugin-vue y lo añadirá a la lista de dependencias en tu archivo package.json.
+
+> Permite que Vite procese archivos .vue correctamente.
 
 * **modify the file vite-config.js**
 
